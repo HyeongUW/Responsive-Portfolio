@@ -215,9 +215,23 @@ input[type=submit] {
   background: #4aaaa5;
   border: 0 none;
 }
+
 @media screen and (max-width: 980px) {
   body {
   }
+
+  #masthead {
+    width: 98%;
+  }
+
+  .main-section {
+    width: 80%;
+  }
+
+  nav {
+    margin-right: 30px;
+  }
+
   .container {
     width: 980px;
   }
@@ -226,9 +240,22 @@ input[type=submit] {
 @media screen and (max-width: 768px) {
   body {
   }
+  #masthead {
+    width: 97.5%;
+  }
 
+  .main-section {
+    width: 98%;
+  }
+
+  nav {
+    margin-right: 30px;
+  }
   .container {
     width: 768px;
+  }
+  .work:nth-child(even) {
+    margin-right: 130px;
   }
 }
 
@@ -237,28 +264,35 @@ input[type=submit] {
   }
   #main-container {
     padding-top: 0px;
-    width: 70%;
+    width: 99%;
     margin: 0;
   }
   #masthead {
     position: static;
-    width: 70%;
+    width: 99%;
   }
   #logo {
-    width: 61%;
+    width: 97%;
     height: 90px;
   }
   nav {
     float: left;
-    margin-left: 50px;
+    margin-left: 155px;
   }
   .auth-image {
     float: none;
-    width: 60%;
+    width: 95%;
   }
   .container {
     width: 640px;
   }
+  .work:nth-child(even) {
+    width: 100%;
+  }
+  .work:nth-child(odd) {
+    width: 100%;
+  }
 }
+
 
 
