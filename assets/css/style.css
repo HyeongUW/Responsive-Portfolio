@@ -252,10 +252,10 @@ input[type=submit] {
     margin-right: 30px;
   }
   .container {
-    width: 768px;
+    width: 740px;
   }
   .work:nth-child(even) {
-    margin-right: 130px;
+    margin-right: 100px;
   }
 }
 
@@ -284,7 +284,7 @@ input[type=submit] {
     width: 95%;
   }
   .container {
-    width: 640px;
+    width: 100%;
   }
   .work:nth-child(even) {
     width: 100%;
